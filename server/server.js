@@ -9,5 +9,5 @@ const app = express();
 app.use(cors());
 app.use("/weather", weatherRoute);
 
-const PORT = 5000;
+const PORT = 7000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
